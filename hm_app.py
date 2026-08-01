@@ -78,8 +78,8 @@ st.write("""HOW TO USE THIS ASSISTANT:
 1. Type a plain-English question about the data; 
 2. The AI will convert it into SQL;
 3. The SQL will run against the sample database;
-4. Results appear below the SQL
-Try:
+4. Results appear below the SQL;
+Then, try to generate:
 - "Show first 10 patients."
 - "List orders with quantity > 1."
 - "What products cost more than 50?"
