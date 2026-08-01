@@ -73,6 +73,7 @@ def run_sql_query(query):
 st.set_page_config(page_title="AI SQL Assistant")
 
 st.title("Hospital de Macondo - AI SQL Assistant")
+st.write("The hospital database has 4 tables: Patients, Appoinments, Hopspital_Records, Lab_Results, Outpatient_Visits")
 st.write("Ask a question in plain English, and I’ll help you turn it into SQL.")
 st.write("""HOW TO USE THIS ASSISTANT: 
 1. Type a plain-English question about the data; 
