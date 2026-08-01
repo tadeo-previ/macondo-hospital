@@ -81,10 +81,10 @@ st.title("Hospital de Macondo - AI SQL Assistant")
 st.write("The hospital database has 5 tables: Patients, Appointments, Hospital_Records, Lab_Results, Outpatient_Visits")
 st.write("Ask a question in plain English, and I’ll help you turn it into SQL + Results")
 st.write("""HOW TO USE THIS ASSISTANT: 
-1. Type a plain-English question about the data; 
+1. Type a plain-English question (prompt) about the data; 
 2. The AI will convert it into SQL;
 3. The SQL will run against the sample database;
-4. Results appear below the SQL;....Then, try to generate the following commands + Results (examples):
+4. Results appear below the SQL;....Then, try to generate the following commands + Results (prompt examples):
 - "Show first 10 patients."
 - "Find out how many days on average the patients spent in the Cardiology department of the hospital"
 - "Compare the average number of days the patients are spending in each department of the hospital"
