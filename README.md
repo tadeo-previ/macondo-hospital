@@ -4,12 +4,12 @@ Includes prompt-engineered behavior, error handling, tone customization, and clo
 
 The SQL Assistant demonstrates:
 
-Python development
-Streamlit interface design
-database connectivity
-OpenAI API integration
-prompt engineering
-safe SQL execution
-CSS/UI refinement
-cloud deployment
-user-testing workflow
+1.Python development
+2.Streamlit interface design
+3.database connectivity
+4.OpenAI API integration
+5.prompt engineering
+6.safe SQL execution
+7.CSS/UI refinement
+8.cloud deployment
+9.user-testing workflow
