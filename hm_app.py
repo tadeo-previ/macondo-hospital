@@ -29,7 +29,7 @@ def generate_sql_from_question(question):
                 "content": (
                     "You are an assistant that converts natural language questions into SQL queries. "
                     "Only use the tables and columns that exist in this SQLite schema "
-                    "TABLE Appoinments(visit_id	patient_id, department_name, patient_name, appointment_date, arrival_time, appointment_time, admission_time);"
+                    "TABLE Appointments(visit_id, patient_id, department_name, patient_name, appointment_date, arrival_time, appointment_time, admission_time);"
                     "TABLE Hospital_Records(patient_id, patient_name, bmi, family_history_of_hypertension, department_name, Days_in_the_hospital);"
                     "TABLA Lab_Results(result_id, visit_id, test_name, test_date, result_value);"
                     "TABLA Outpatient_Visits(visit_id, patient_id, visit_date, doctor_name, reason_for_visit, diagnosis, medication_prescribed, smoker_status);"
@@ -78,7 +78,7 @@ def run_sql_query(query):
 st.set_page_config(page_title="AI SQL Assistant")
 
 st.title("Hospital de Macondo - AI SQL Assistant")
-st.write("The hospital database has 5 tables: Patients, Appoinments, Hospital_Records, Lab_Results, Outpatient_Visits")
+st.write("The hospital database has 5 tables: Patients, Appoitnments, Hospital_Records, Lab_Results, Outpatient_Visits")
 st.write("Ask a question in plain English, and I’ll help you turn it into SQL + Results")
 st.write("""HOW TO USE THIS ASSISTANT: 
 1. Type a plain-English question about the data; 
