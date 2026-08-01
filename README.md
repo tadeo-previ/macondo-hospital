@@ -6,10 +6,11 @@ The SQL Assistant demonstrates:
 
 1.Python development
 2.Streamlit interface design
-3.database connectivity
+3.database connectivity e integration
 4.OpenAI API integration
-5.prompt engineering
+5.prompt engineering (AI + SQL generation)
 6.safe SQL execution
 7.CSS/UI refinement
-8.cloud deployment
+8.real cloud deployment
 9.user-testing workflow
+10.secure excecution practices
