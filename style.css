@@ -1,0 +1,16 @@
+/* Make the main content narrower and easier to read */
+.block-container {
+    max-width: 780px;
+    padding-top: 1rem;
+}
+
+/* Style section headers */
+h1, h2, h3 {
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+/* Add space above result tables */
+.dataframe {
+    margin-top: 1rem;
+}

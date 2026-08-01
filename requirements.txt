@@ -1,0 +1,3 @@
+sstreamlit
+openai
+python-doenv
