@@ -91,7 +91,7 @@ st.write("""HOW TO USE THIS ASSISTANT:
 """)
 
 with st.form("user_question_form"):
-    user_question = st.text_input("What would you like to know about your data?...Enter prompts as an SQLite database is used")
+    user_question = st.text_input("What would you like to know about your data?...Enter prompts as it's used on an SQLite database")
     submitted = st.form_submit_button("Generate SQL")
 
 if submitted:
