@@ -74,6 +74,11 @@ st.set_page_config(page_title="AI SQL Assistant")
 
 st.title("Hospital de Macondo - AI SQL Assistant")
 st.write("Ask a question in plain English, and I’ll help you turn it into SQL.")
+st.write("How to use this assistant")
+st.write("Type a plain-English question about the data,")
+st.write("The AI will convert it into SQL,")
+st.write("The SQL will run against the hospital_macondo databse,")
+st.write("Results appear below the SQL")
 
 with st.form("user_question_form"):
     user_question = st.text_input("What would you like to know about your data?")
